@@ -5,10 +5,6 @@ app = ctk.CTk()
 app.geometry("800x600") #Creates ui size
 app.title("Joshi's Football Store")
 
-PRODUCTS = []
-TEAMS = ["Manchester United", "Chelsea", "Real Madrid", "Nottingham Forest"]
-BRANDS = ["Nike", "Adidas", "Puma", "Asics"]
-
 class Products: # Parent class for the child classes of the different categories
     def __init__(self, name, price, quality): # Initialises the attributes of the class
         self.name = name
